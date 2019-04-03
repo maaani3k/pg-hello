@@ -33,6 +33,6 @@ function intro() {
 			'Semester   : '    + '    2nd     '     + '\n' + 
 			'Subject : '  + '    Bogate aplikacje Internetowe'  + '\n';
 
-	navigator.notification.alert(info);
+	navigator.notification.alert("Information");
 	
 }
