@@ -19,4 +19,20 @@ function deviceInfo() {
 
 	navigator.notification.alert(info);
 	
+
+}
+
+function intro() {
+
+	info =  'Hi, your personal data are below' + '\n' +
+			'=====' + '\n' +
+			'Name    : '     + '    Maciej     '     + '\n' + 
+			'Surname : '  + '     Dyjak      ' + '\n' + 
+			'Group ' + '     WZISS21212     ' + '\n' + 
+			'Index number    : '     + '     192677     '     + '\n' + 
+			'Semester   : '    + '    2nd     '     + '\n' + 
+			'Subject : '  + '    Bogate aplikacje Internetowe'  + '\n';
+
+	navigator.notification.alert(info);
+	
 }
